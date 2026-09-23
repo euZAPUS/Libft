@@ -1,32 +1,43 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+/*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: alsanch3 <alsanch3@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/09/22 14:45:59 by alsanch3          #+#    #+#             */
-/*   Updated: 2026/09/23 14:13:24 by alsanch3         ###   ########.fr       */
+/*   Created: 2026/09/23 15:00:29 by alsanch3          #+#    #+#             */
+/*   Updated: 2026/09/23 15:32:46 by alsanch3         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include <stdlib.h>
 
-void	*ft_memcpy(void *dest, const void *src, size_t n)
+size_t	ft_strlen(const char *s);
+
+char	*ft_strjoin(char const *s1, char const *s2)
 {
-	size_t				i;
-	unsigned char		*d;
-	const unsigned char	*s;
+	char	*ptr;
+	size_t	i;
+	size_t	j;
 
-	d = (unsigned char *) dest;
-	s = (const unsigned char *) src;
-	if (dest == 0 && src == 0)
-		return (0);
+	if (!s1 || !s2)
+		return (NULL);
+	j = 0;
 	i = 0;
-	while (i < n)
+	ptr = (char *) malloc(ft_strlen(s1) + ft_strlen(s2) + 1);
+	if (!ptr)
+		return (NULL);
+	while (s1[i] != '\0')
 	{
-		d[i] = s[i];
+		ptr[i] = s1[i];
 		i++;
 	}
-	return (dest);
+	while (s2[j] != '\0')
+	{
+		ptr[i] = s2[j];
+		i++;
+		j++;
+	}
+	ptr[i] = '\0';
+	return (ptr);
 }
