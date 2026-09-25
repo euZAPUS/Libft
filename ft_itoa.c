@@ -6,11 +6,11 @@
 /*   By: alsanch3 <alsanch3@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/24 14:18:05 by alsanch3          #+#    #+#             */
-/*   Updated: 2026/09/24 14:42:20 by alsanch3         ###   ########.fr       */
+/*   Updated: 2026/09/25 15:11:39 by alsanch3         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include "libft.h"
 
 static int	count_digits(long n)
 {

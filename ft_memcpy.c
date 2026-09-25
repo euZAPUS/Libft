@@ -6,11 +6,11 @@
 /*   By: alsanch3 <alsanch3@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/22 14:45:59 by alsanch3          #+#    #+#             */
-/*   Updated: 2026/09/23 14:13:24 by alsanch3         ###   ########.fr       */
+/*   Updated: 2026/09/25 15:12:24 by alsanch3         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {

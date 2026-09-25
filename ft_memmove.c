@@ -6,11 +6,11 @@
 /*   By: alsanch3 <alsanch3@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/22 14:54:41 by alsanch3          #+#    #+#             */
-/*   Updated: 2026/09/23 15:18:01 by alsanch3         ###   ########.fr       */
+/*   Updated: 2026/09/25 15:12:29 by alsanch3         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 void	*ft_memmove(void *dest, const void *src, size_t len)
 {

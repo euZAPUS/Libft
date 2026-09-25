@@ -6,13 +6,11 @@
 /*   By: alsanch3 <alsanch3@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/24 13:31:45 by alsanch3          #+#    #+#             */
-/*   Updated: 2026/09/24 14:17:49 by alsanch3         ###   ########.fr       */
+/*   Updated: 2026/09/25 15:12:54 by alsanch3         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-
-char	*ft_substr(char const *s, unsigned int start, size_t len);
+#include "libft.h"
 
 static int	count_words(char const *s, char c)
 {

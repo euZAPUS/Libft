@@ -6,11 +6,11 @@
 /*   By: alsanch3 <alsanch3@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/23 14:10:32 by alsanch3          #+#    #+#             */
-/*   Updated: 2026/09/23 14:13:49 by alsanch3         ###   ########.fr       */
+/*   Updated: 2026/09/25 15:13:21 by alsanch3         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 size_t	ft_strlen(const char *s)
 {

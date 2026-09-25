@@ -6,9 +6,11 @@
 /*   By: alsanch3 <alsanch3@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/22 16:28:24 by alsanch3          #+#    #+#             */
-/*   Updated: 2026/09/23 15:37:44 by alsanch3         ###   ########.fr       */
+/*   Updated: 2026/09/25 15:13:37 by alsanch3         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 char	*ft_strrchr(const char *s, int c)
 {

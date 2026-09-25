@@ -6,13 +6,11 @@
 /*   By: alsanch3 <alsanch3@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/24 15:07:27 by alsanch3          #+#    #+#             */
-/*   Updated: 2026/09/24 15:09:01 by alsanch3         ###   ########.fr       */
+/*   Updated: 2026/09/25 15:12:47 by alsanch3         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-size_t	ft_strlen(const char *s);
+#include "libft.h"
 
 void	ft_putstr_fd(char *s, int fd)
 {

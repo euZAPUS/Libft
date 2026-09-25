@@ -6,15 +6,11 @@
 /*   By: alsanch3 <alsanch3@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/24 13:04:12 by alsanch3          #+#    #+#             */
-/*   Updated: 2026/09/24 13:25:52 by alsanch3         ###   ########.fr       */
+/*   Updated: 2026/09/25 15:13:41 by alsanch3         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-
-size_t	ft_strlen(const char *s);
-char	*ft_strchr(const char *s, int c);
-char	*ft_substr(char const *s, unsigned int start, size_t len);
+#include "libft.h"
 
 char	*ft_strtrim(char const *s1, char const *set)
 {
